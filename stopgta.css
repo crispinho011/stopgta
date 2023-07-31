@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.game-container {
+    display: flex;
+}
+
+.left-panel, .right-panel {
+    flex: 1;
+}
+
+.left-panel {
+    text-align: left;
+    padding-right: 20px;
+}
+
+.right-panel {
+    text-align: right;
+    padding-left: 20px;
+}
+
+.categories ul, .word-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.categories li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.letter-input {
+    margin-top: 30px;
+}
+
+.letter-input label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#letter {
+    font-size: 24px;
+    padding: 5px;
+    text-transform: uppercase;
+    width: 40px;
+}
+
+#submit-btn {
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+#output {
+    font-size: 18px;
+    text-align: left;
+}
+
+.word-list {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#timer {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
