@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jogo Stop</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo Stop</h1>
+        <div class="game-container">
+            <div class="left-panel">
+                <div class="categories">
+                    <p><strong>Categorias:</strong></p>
+                    <ul id="category-list">
+                        <!-- Adicione as categorias aqui -->
+                        <li>Animais</li>
+                        <li>Frutas</li>
+                        <li>Países</li>
+                        <li>Nomes</li>
+                        <li>Cores</li>
+                    </ul>
+                </div>
+                <div class="letter-input">
+                    <label for="letter">Digite uma letra:</label>
+                    <input type="text" id="letter" maxlength="1" autofocus>
+                    <button id="submit-btn" onclick="checkLetter()">Enviar</button>
+                    <p id="output"></p>
+                </div>
+            </div>
+            <div class="right-panel">
+                <div id="timer">Tempo restante: <span id="time">60</span> segundos</div>
+                <div class="word-list">
+                    <p><strong>Palavras encontradas:</strong></p>
+                    <ul id="words">
+                        <!-- As palavras encontradas serão adicionadas aqui dinamicamente -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
